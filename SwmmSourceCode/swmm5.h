@@ -1,0 +1,68 @@
+//-----------------------------------------------------------------------------
+//   swmm5.h
+//
+//   Project: EPA SWMM5
+//   Version: 5.1
+//   Date:    03/24/14  (Build 5.1.001)
+//            08/01/16  (Build 5.1.011)
+//   Author:  L. Rossman
+//
+//   Prototypes for SWMM5 functions exported to swmm5.dll.
+//
+//-----------------------------------------------------------------------------
+
+#ifndef SWMM5_H
+#define SWMM5_H
+
+// --- define WINDOWS
+
+#undef WINDOWS
+#ifdef _WIN32
+  #define WINDOWS
+#endif
+#ifdef __WIN32__
+  #define WINDOWS
+#endif
+
+// --- define DLLEXPORT
+
+#ifdef WINDOWS
+    #define DLLEXPORT __declspec(dllexport) __stdcall
+#else
+    #define DLLEXPORT
+#endif
+
+// --- use "C" linkage for C++ programs
+
+#ifdef __cplusplus
+extern "C" { 
+#endif 
+
+int  DLLEXPORT   swmm_run(char* f1, char* f2, char* f3);
+//int  DLLEXPORT   swmm_open(char* f1, char* f2, char* f3);
+//int  DLLEXPORT   swmm_start(int saveFlag);
+
+//int  DLLEXPORT   swmm_step(double* elapsedTime);                  
+//int  DLLEXPORT   swmm_step(double TimeStep);                                                                                                                  //MZ-202007
+//int  DLLEXPORT   swmm_end(void);
+int  DLLEXPORT   swmm_report(void);
+int  DLLEXPORT   swmm_getMassBalErr(float* runoffErr, float* flowErr,
+                 float* qualErr);
+//int  DLLEXPORT   swmm_close(void);
+int  DLLEXPORT   swmm_getVersion(void);
+int  DLLEXPORT   swmm_getError(char* errMsg, int msgLen);
+int  DLLEXPORT   swmm_getWarnings(void);
+
+//int  DLLEXPORT   swmm_getCouplePoints(double blx, double bly, int row, int col, double delta, int* indexs,int* rows,int* cols,double* cqAs,double* weirBs,double* pondedA);  //MZ-202007
+//int  DLLEXPORT   swmm_getCouplePointsN(double blx, double bly, int row, int col, double delta);                                                              //MZ-202007
+//int  DLLEXPORT   swmm_getSWMMSimTime(void);//use after swmm_start                                                                                            //MZ-202007
+//double DLLEXPORT swmm_getOverflow(int);                                                                                                                      //MZ-202007
+//int  DLLEXPORT   swmm_setLatFlow(int, double);                                                                                                               //MZ-202007
+//int  DLLEXPORT   swmm_setOption_allowPonding(int flag);                                                                                                      //MZ-202007
+//double DLLEXPORT swmm_getNodeHead(int index,int* flag);                                                                                                      //MZ-202007
+
+#ifdef __cplusplus 
+}   // matches the linkage specification from above */ 
+#endif
+
+#endif

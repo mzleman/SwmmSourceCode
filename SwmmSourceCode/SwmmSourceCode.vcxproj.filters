@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="globals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="funcs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="export.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="swmm5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="objects.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="consts.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="infil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="keywords.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="datetime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="exfil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="findroot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="headers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mathexpr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mempool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="odesolve.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="routing.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="swmm5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="project.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="keywords.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="node.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dynwave.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="input.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inflow.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="link.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xsect.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="datetime.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mempool.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="climate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="culvert.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dwflow.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gage.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="infil.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lidproc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="massbal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="output.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rain.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="report.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="roadway.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="statsrpt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="subcatch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stats.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="controls.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="error.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="exfil.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="findroot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="flowrout.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="forcmain.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gwater.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hotstart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iface.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inputrpt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kinwave.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="landuse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mathexpr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="odesolve.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="qualrout.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rdii.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="runoff.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shape.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="snow.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="surfqual.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="table.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="toposort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="transect.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="treatmnt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="couple.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
